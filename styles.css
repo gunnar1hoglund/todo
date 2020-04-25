@@ -1,0 +1,112 @@
+:root {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+
+    /* darkmode colors */
+    --side-bg-dark: #2b2b2b;
+    --main-bg-dark: #333333;
+
+    --side-bg-light: #f5f5f5;
+    --main-bg-light: #fcfcfc; 
+
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* text-align: center; */
+    height: 100vh;
+    color: white;
+    
+}
+
+.sideBar {
+    flex: 25%;
+    /* outline: 1px solid red; */
+    background: var(--side-bg-dark);
+    padding: 1rem;
+    border-right: 1px solid #1c1c1c;
+}
+
+.mainSpace {
+    flex: 75%;
+    /* outline: 1px solid red; */
+    background: var(--main-bg-dark);
+    padding: 1rem;
+}
+
+/* icons */
+
+.sections svg {
+    width: 1rem;
+    padding-right: .5rem;
+    padding-top: 1rem;
+
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.sections p {
+    color: white;
+   
+}
+
+.sections div {
+    height: 2rem;
+    /* outline: red dotted 1px; */
+    
+}
+
+.inbox {
+    color: #0a84ff;
+    display: inline-flex;
+   
+
+}
+
+.clock {
+    color: #ff9f0a;
+    display: inline-flex;
+    /* margin-top: -1rem; */
+   
+
+}
+
+.calendar {
+    color: #ff453a;
+    display: inline-flex;
+    /* margin-top: -1rem; */
+   
+
+}
+
+.bottomButtons {
+    position: fixed; 
+    bottom: 0;
+    margin-bottom: 1rem;
+}
+
+.add {
+    width: 1rem;
+}
+
+.addBut svg {
+    font-size: 16px;
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    bottom:0;
+    margin-bottom: 1rem;
+}
+
+.addBut {
+    float: right;
+    margin-right: .5rem;
+    text-align: left;   
+    
+}
